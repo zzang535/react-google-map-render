@@ -1,0 +1,41 @@
+.navbar li {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background: #eee;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.navbar a {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.blog-content {
+    width: 80%;
+    height: 200px;
+    background: #eee;
+    float: left;
+}
+
+.blog-profile {
+    width: 50px;
+    float: left;
+}
+
+.blog-name {
+    float: left;
+}
+
+.blog-img {
+    width: 20%;
+    height: 200px;
+    background: yellow;
+    float: right;
+}
