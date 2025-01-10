@@ -1,0 +1,14 @@
+.main-btn {
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-blue {
+    background-color: blue;
+}
