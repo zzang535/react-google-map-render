@@ -1,0 +1,63 @@
+/* my solution */
+.nav-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav-item {
+    width: 25%;
+    height: 100px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .nav-item {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-item {
+        width: 100%;
+    }
+}
+
+/* class solution */
+.nav-container2 {
+    width: 80%;
+    max-width: 1000px;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+
+.nav-container2 div {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .nav-container2 {
+        max-width: 700px;
+    }
+    .nav-container2 div {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-container2 {
+        max-width: 400px;
+    }
+    .nav-container2 div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+}
