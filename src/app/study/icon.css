@@ -1,0 +1,13 @@
+.icon-container i {
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.icon-container i::before {
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
